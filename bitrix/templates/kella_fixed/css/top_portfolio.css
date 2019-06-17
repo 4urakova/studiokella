@@ -1,0 +1,64 @@
+.top_portfolio {
+	margin-bottom: 10px;
+}
+
+.top_portfolio .pict {
+	position: relative;
+	overflow: hidden;
+	margin: 10px 0 0;
+}
+.top_portfolio a {
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	color: #000;
+}
+
+.top_portfolio img {
+	width: 100%;
+}
+
+.top_portfolio .desc {
+	min-height: 78px;
+	padding: 10px;
+	background: #e4ddbd;
+}
+
+.top_portfolio .row {
+	margin-bottom: 45px;
+}
+
+.top_portfolio .top_toggler {
+	display: block;
+	background: url('../images/bottom_items_arrow.png') no-repeat 60% 0px;
+	height: 90px;
+	text-align: center;
+	color: #777777;
+	font-size: 12px;
+	text-decoration: none;
+	padding-top: 30px;
+	margin: 0 -100px;
+}
+
+.top_portfolio .top_toggler.active {
+	background: url('../images/top_items_arrow.png') no-repeat 60% 0px;
+	padding-top: 25px;
+}
+
+.top_portfolio > .sect {
+	color: #a18001;
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+	.top_portfolio .top_toggler {
+		margin: 0;
+		background-position: 45% 0px;
+	}
+
+	.top_portfolio .top_toggler.active {
+		background-position: 45% 0px;
+	}
+}

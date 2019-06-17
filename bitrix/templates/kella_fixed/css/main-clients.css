@@ -1,0 +1,21 @@
+#main_clients {
+	margin-bottom: 40px;
+}
+
+#main_clients .logo-block {
+	margin-bottom: 50px;
+}
+
+#main_clients .logo-block .row {
+	margin-bottom: 10px;
+}
+
+#main_clients .logo-block .logo {
+	position: relative;
+}
+
+#main_clients .logo-block .logo img {
+	max-width: 94%;
+	margin-bottom: 20px;
+}
+

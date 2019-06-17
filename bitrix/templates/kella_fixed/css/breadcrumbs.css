@@ -1,0 +1,10 @@
+.breadcrumb {
+	background-color: transparent;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.breadcrumb > li + li:before {
+	content: ">";
+	color: #a18001;
+}

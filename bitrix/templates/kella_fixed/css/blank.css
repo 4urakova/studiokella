@@ -1,0 +1,181 @@
+body {
+    color: #000;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    width: 877px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border: 1px solid #edebe2;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content__col {
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #edebe2;
+}
+
+.header__title {
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.subtitle {
+    margin-bottom: 5px;
+}
+
+.adres,
+.phone,
+.email,
+.time {
+    position: relative;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.phone,
+.email,
+.time {
+    padding-left: 30px;
+}
+
+.adres::before,
+.phone::before,
+.email::before,
+.time::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+}
+
+.adres::before {
+    background: url(../../../../images/001-placeholder.png) no-repeat;
+    background-size: contain;
+}
+
+.phone:first-child::before {
+    background: url(../../../../images/002-phone-call.png) no-repeat;
+    background-size: contain;
+}
+
+.email::before {
+    background: url(../../../../images/003-envelope.png) no-repeat;
+    background-size: contain;
+}
+
+.time::before {
+    background: url(../../../../images/004-fast.png) no-repeat;
+    background-size: contain;
+}
+
+.order__block-title {
+    background: #edebe2;
+}
+
+.order td {
+    padding: 3px 20px;
+}
+
+.order {
+    border-collapse: collapse;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.phone {
+    font-size: 18px;
+}
+
+.time {
+    margin-top: 5px;
+}
+
+.order__block-title td {
+    padding: 6px 20px;
+}
+
+.order__block-title {
+    background: #edebe2;
+    font-weight: 700;
+}
+
+.order td:nth-child(2) {
+    font-weight: 500;
+}
+
+.order td:first-child {
+    width: 54%;
+}
+
+.order .summ,
+.order .summ1 {
+    font-weight: 700;
+}
+
+.order .summ {
+    font-size: 18px;
+}
+
+.notice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #edebe2;
+    margin: 20px 0;
+    font-size: 16px;
+    border-left: 4px solid #bbb599;
+}
+
+.notice .phone {
+    margin-top: 6px;
+}
+
+.footer img {
+    width: 100%;
+}
+
+.content__col:nth-child(2) {
+    width: 45%;
+    padding-left: 20px;
+}

@@ -1,0 +1,71 @@
+#mainMenu {
+    /*width: 653px;*/
+    width: calc(100% - 94px);
+}
+
+#tabMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#tabMenu.nav-tabs > li {
+    width: 20%;
+}
+
+#tabMenu.nav-tabs.nav-justified > li {
+    /*display: table-cell;*/
+}
+
+#tabMenu.nav-tabs > li > a {
+    font-size: 20px;
+    border: none;
+    border-radius: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: #FFF;
+    text-decoration: none;
+    padding: 17px 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: all ease 0.3s;
+}
+
+#tabMenu.nav-tabs > li:last-child > a {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#tabMenu.nav-tabs > li.active > a,
+#tabMenu.nav-tabs > li > a:hover,
+#tabMenu.nav-tabs > li > a:focus {
+    cursor: pointer;
+    background-color: rgb(176,3,52);
+}
+
+#tabSubMenu .tab-pane {
+    background-color: rgba(0, 0, 0, 0.85);
+    overflow: hidden;
+    padding: 25px;
+    font-size: 18px
+}
+
+#tabSubMenu a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#tabSubMenu a:hover {
+    color: #a36100;
+    text-decoration: underline;
+}
+
+#tabSubMenu span:after {
+    content: " • ";
+    margin: 0 1px;
+}
+
+#tabSubMenu span:last-child:after {
+    content: "";
+}

@@ -1,0 +1,11 @@
+.news-line {
+	padding-right: 190px;
+}
+
+.news-line .date {
+	font-size: 12px;
+}
+
+.news-line .news-item {
+	margin-bottom: 16px;
+}

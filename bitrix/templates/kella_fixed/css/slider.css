@@ -1,0 +1,131 @@
+#slider .carousel-inner > .item {
+	height: 606px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	opacity: 1;
+	-webkit-transition: opacity .6s ease-in-out;
+	transition: opacity .6s ease-in-out;
+}
+
+#slider .carousel-inner > .active {
+	opacity: 1;
+}
+
+#slider .carousel-inner > .active.left,
+#slider .carousel-inner > .active.right {
+	left: 0;
+	opacity: 0;
+}
+
+#slider .carousel-inner > .next,
+#slider .carousel-inner > .prev {
+	left: 0;
+	opacity: 0;
+}
+
+@media (min-width: 1400px) {
+	#slider .carousel-inner > .item {
+		background-size: cover;
+	}
+}
+
+@media (max-width: 1400px) {
+	#slider .carousel-inner > .item {
+		background-size: auto 606px;
+	}
+}
+
+#slider .indicators-wrapper {
+	position: absolute;
+	width: 100%;
+	min-width: 990px;
+	height: 57px;
+	left: 0;
+	bottom: 0;
+	z-index: 15;
+	margin-left: 0;
+}
+
+#slider .bottom-bg {
+	width: 50%;
+	min-width: 495px; /* 990 / 2 */
+	height: 57px;
+	background-color: #edebe2;
+	margin-left: -160px; /* ~~325 / 2 */
+}
+
+#slider .bottom-bg-image {
+	content: "";
+	width: 325px;
+	height: 57px;
+	background: url('../images/slider_bottom.png') no-repeat top right;
+}
+
+#slider .carousel-indicators {
+	position: relative;
+	margin: 0 0 0 50px;
+	left: 0;
+	bottom: 0;
+	width: 250px;
+	text-align: left;
+}
+
+#slider .carousel-inner {
+	min-width: 990px;
+}
+
+#slider .carousel-caption {
+	left: 0;
+	right: 0;
+	top: 350px;
+	text-align: left;
+	padding: 10px 20px 10px 68px;
+	text-shadow: none;
+	height: 151px;
+	text-decoration: none;
+}
+
+#slider .carousel-caption:hover {
+	background: url('../images/slider_arrow.png') no-repeat top left;
+	color: #FFF;
+}
+
+#slider .carousel-indicators {
+	height: 40px;
+}
+
+#slider .carousel-indicators li {
+	width: 16px;
+	height: 16px;
+	margin: 12px 13px;
+	padding: 4px;
+	-webkit-transition: all 0.2s linear 0s;
+	-moz-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+	transition: all 0.2s linear 0s;
+}
+
+#slider .carousel-indicators li:hover {
+	width: 38px;
+	height: 38px;
+	margin: 0px 2px;
+	padding: 15px;
+	border: 1px dashed #FFF;
+	border-radius: 38px;
+}
+
+#slider .carousel-indicators .active {
+	margin: 12px 13px;
+	background-color: transparent;
+}
+
+#slider .carousel-indicators li i {
+	display: block;
+	width: 6px;
+	height: 6px;
+	border-radius: 5px;
+}
+
+#slider .carousel-indicators .active i {
+	background-color: #FFF;
+}

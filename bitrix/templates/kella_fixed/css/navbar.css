@@ -1,0 +1,110 @@
+.navbar {
+	padding-bottom: 66px;
+	border: 0;
+	border-radius: 0;
+	overflow: hidden;
+	margin: 0;
+	width: 100%;
+	z-index: 1;
+	padding-top: 10px;
+}
+
+.navbar-nav {
+	float: left;
+	margin: 0;
+}
+
+.navbar-nav > li {
+	float: left;
+}
+
+.navbar-right {
+	float: right!important;
+}
+
+.navbar-nav > li > a {
+	padding: 8px;
+}
+
+.header-wrap .navbar-text.navbar-right {
+	width: calc(100% - 670px);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+}
+
+.header-wrap .navbar-nav > li > a {
+	margin-right: 46px;
+}
+
+.navbar-text__contacts {
+	display: flex;
+	flex-direction: column;
+	margin-left: 13px;
+}
+
+.navbar-text__contacts--phones {
+	flex-direction: row;
+	padding: 11px;
+}
+
+.navbar-text__contacts a {
+	text-decoration: none;
+}
+
+.navbar-text__contacts .dot {
+	margin: 0 10px;
+	padding: 3px;
+}
+
+.navbar-text__phone {
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.navbar-text__phone--main {
+	font-weight: 700;
+}
+
+.navbar-nav > li > a {
+	padding: 12px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.navbar-inverse {
+	background-color: rgb(25, 21, 18);
+}
+
+.navbar-inverse nav {
+	overflow: hidden;
+}
+
+.navbar-inverse .navbar-text {
+	font-size: 12px;
+}
+
+.navbar-nav,
+.navbar-text__contacts {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.navbar-text__contacts {
+	font-size: 11px;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-text, .navbar-inverse .navbar-text a {
+	color: #FFF;
+}
+
+#footer .navbar-nav {
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	margin-bottom: 18px;
+}
+
+.header-wrap .navbar-inverse {
+	background-color: rgba(0,0,0,0.6);
+}

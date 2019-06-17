@@ -1,0 +1,97 @@
+html, body {height: 100%;}
+
+body {
+	background-color: #edebe2;
+	color: #000;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+textarea {
+	line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+h1, h2, h3 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+a {
+	color: #a18001;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #a18001;
+	text-decoration: none;
+}
+
+hr {
+	border-top: 1px solid #777777;
+}
+
+p {
+	line-height: 1.6;
+}
+
+.table-text-page {
+	width: 100%;
+}
+
+.table-text-page .table-text-page-left-col {
+	width: 660px;
+	padding-right: 185px;
+}
+
+.table-text-page .table-text-page-right-col {
+	width: 315px;
+	vertical-align: top;
+}
+
+.table-text-page p {
+	font-size: 12px;
+}
+
+.lead {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+.listing {
+	overflow: hidden;
+}
+

@@ -1,0 +1,24 @@
+.op-5 {opacity: 0.5;}
+.op-3 {opacity: 0.3;}
+
+/*=========BACKGROUNDS==========*/
+.bg-black-op-7 {background-color: rgba(0,0,0,0.7);}
+.bg-black-op-5 {background-color: rgba(0,0,0,0.5);}
+.bg-brown {background: #5d3a0c;}
+
+/*=============TEXT=============*/
+.text-white,a.text-white {color: #FFF;}
+.text-black,a.text-black,a.text-black:hover {color: #000;}
+.text-grey,a.text-grey,a.text-grey:hover {color: #777777;}
+.grey {color: #808080;}
+.text-underline {text-decoration: none;display: inline;border-bottom: 1px solid black;}
+
+/*FONT*/
+.font-lite {font-weight: 300;}
+.font-regular {font-weight: 400;}
+.font30 {font-size: 30px;}
+.font21 {font-size: 21px;}
+.font20 {font-size: 20px;}
+.font18 {font-size: 18px;}
+.font16 {font-size: 16px;}
+.font12 {font-size: 12px;}
